@@ -1,0 +1,15 @@
+{
+    "require": {
+        "twig/twig": "^2.4"
+    },
+    "require-dev": {
+        "simpletest/simpletest": "^1.1"
+    },
+    "scripts": {
+        "serve": "php -S 127.0.0.1:8000 -t public",
+        "test": [
+            "php tests/unit_test.php",
+            "php tests/functional_test.php"
+        ]
+    }
+}
