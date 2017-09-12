@@ -8,8 +8,10 @@
     "scripts": {
         "serve": "php -S 127.0.0.1:8000 -t public",
         "test": [
-            "php tests/unit_test.php",
-            "php tests/functional_test.php"
-        ]
+            "php unit_tests.php",
+            "php functional_tests.php"
+        ],
+        "test-unit": "php unit_tests.php",
+        "test-functional": "php functional_tests.php"
     }
 }

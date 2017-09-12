@@ -1,7 +1,5 @@
 <?php
-require_once __DIR__.'/bootstrap.php';
-
-class CalcTest extends UnitTestCase
+class UnitTest extends UnitTestCase
 {
     public function testAddOneAndOne() {
         $this->assertEqual(1+1, 2);
