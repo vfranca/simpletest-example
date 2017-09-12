@@ -7,9 +7,6 @@
     },
     "scripts": {
         "serve": "php -S 127.0.0.1:8000 -t public",
-        "test": [
-            "php tests/unit_test.php",
-            "php tests/functional_test.php"
-        ]
+        "test": "php tests.php"
     }
 }
