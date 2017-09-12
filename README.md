@@ -1,4 +1,4 @@
-# SimpleTest Sample
+# SimpleTest Example
 
 Exemplos de testes unitários e funcionais com SimpleTest.
 ## Uso
